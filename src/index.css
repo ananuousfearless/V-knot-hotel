@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Jost", sans-serif;
+  --font-serif: "Cormorant Garamond", serif;
+
+  /* Formally map core tailwind colors to custom CSS variables */
+  --color-gold-400: var(--primary-light);
+  --color-gold-500: var(--primary);
+  --color-gold-600: var(--primary-dark);
+  --color-white: var(--theme-white);
+  --color-black: var(--theme-black);
+
+  --radius-2xl: 32px;
+  --radius-3xl: 32px;
+  --radius-xl: 12px;
+  --radius-lg: 8px;
+}
+
+:root {
+  /* Elegant Dark (Default) */
+  --primary-light: #eecf73;
+  --primary: #D4AF37;
+  --primary-dark: #C5A059;
+  --theme-white: #ffffff;
+  --theme-black: #0F0F0F;
+  --app-bg: #0F0F0F;
+  --app-text: #E0E0E0;
+}
+
+.theme-elegant-dark {
+  --primary-light: #eecf73;
+  --primary: #D4AF37;
+  --primary-dark: #C5A059;
+  --theme-white: #ffffff;
+  --theme-black: #0F0F0F;
+  --app-bg: #0F0F0F;
+  --app-text: #E0E0E0;
+}
+
+.theme-ocean-blue {
+  --primary-light: #90CDF4;
+  --primary: #4299E1;
+  --primary-dark: #2B6CB0;
+  --theme-white: #E2E8F0;
+  --theme-black: #050e1d;
+  --app-bg: #0A192F;
+  --app-text: #E2E8F0;
+}
+
+.theme-tropical-light {
+  --primary-light: #4FD1C5;
+  --primary: #319795;
+  --primary-dark: #285E61;
+  --theme-white: #1A202C; /* Dark text/borders */
+  --theme-black: #F7FAFC; /* Light backgrounds */
+  --app-bg: #E6FFFA;
+  --app-text: #1A202C;
+}
+
+.theme-sunset-resort {
+  --primary-light: #F6AD55;
+  --primary: #ED8936;
+  --primary-dark: #C05621;
+  --theme-white: #FFEDDE;
+  --theme-black: #1A0B02;
+  --app-bg: #351505;
+  --app-text: #FFEDDE;
+}
+
+.theme-forest-retreat {
+  --primary-light: #F6E05E;
+  --primary: #D69E2E;
+  --primary-dark: #975A16;
+  --theme-white: #FEFCBF;
+  --theme-black: #0E2417;
+  --app-bg: #143621;
+  --app-text: #FEFCBF;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--app-bg);
+  color: var(--app-text);
+  transition: background-color 0.5s ease;
+}
+
+body {
+  @apply antialiased overflow-x-hidden;
+  background-color: var(--app-bg) !important;
+  color: var(--app-text) !important;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* Custom Scrollbar for Luxury Vibe */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--theme-white);
+  border-radius: 9999px;
+  opacity: 0.2;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--primary);
+}
