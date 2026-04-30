@@ -4,7 +4,7 @@ import { CheckCircle2 } from 'lucide-react';
 
 export function About() {
   return (
-    <section id="about" className="py-24 bg-transparent backdrop-blur-sm">
+    <section id="about" className="py-16 md:py-24 lg:py-32 bg-transparent backdrop-blur-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           
@@ -14,25 +14,30 @@ export function About() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="grid grid-cols-2 gap-4 relative"
+            className="grid grid-cols-2 gap-4 relative w-full md:w-5/6 lg:w-full mx-auto"
           >
-            <div className="space-y-4 pt-12">
+            <div className="flex flex-col gap-4 mt-8 md:mt-12">
               <img 
-                src="https://images.unsplash.com/photo-1551882547-ff40c0d129df?q=80&w=800&auto=format&fit=crop" 
-                alt="Reception" 
-                className="rounded-2xl shadow-xl w-full h-64 object-cover"
+                src="https://i.imgur.com/Avb2yym.jpeg" 
+                alt="View" 
+                className="rounded-2xl shadow-2xl w-full aspect-[4/5] object-cover hover:scale-[1.02] transition-transform duration-500"
               />
               <img 
-                src="https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=800&auto=format&fit=crop" 
-                alt="Room detail" 
-                className="rounded-2xl shadow-xl w-full h-48 object-cover"
+                src="https://i.imgur.com/iH7oIIM.jpeg" 
+                alt="Interior" 
+                className="rounded-2xl shadow-2xl w-full aspect-square object-cover hover:scale-[1.02] transition-transform duration-500"
               />
             </div>
-            <div className="space-y-4">
+            <div className="flex flex-col gap-4 mb-8 md:mb-12">
               <img 
-                src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=800&auto=format&fit=crop" 
-                alt="Pool area" 
-                className="rounded-2xl shadow-xl w-full h-72 object-cover"
+                src="https://i.imgur.com/6OEuYXl.jpeg" 
+                alt="Exterior" 
+                className="rounded-2xl shadow-2xl w-full aspect-square object-cover hover:scale-[1.02] transition-transform duration-500"
+              />
+              <img 
+                src="https://i.imgur.com/Tkzeca3.jpeg" 
+                alt="Dining" 
+                className="rounded-2xl shadow-2xl w-full aspect-[4/5] object-cover hover:scale-[1.02] transition-transform duration-500"
               />
             </div>
             

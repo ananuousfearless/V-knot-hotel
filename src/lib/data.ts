@@ -32,7 +32,7 @@ export const HOTEL_DATA = {
       price: "₹2,499",
       description: "A beautifully appointed room offering comfort and elegance, perfect for short stays.",
       occupancy: "2 Adults, 1 Child",
-      image: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=2070&auto=format&fit=crop",
+      image: "https://i.imgur.com/au9GzOl.jpeg",
       facilities: ["Free WiFi", "Air Conditioning", "TV", "Hot Water"]
     },
     {
@@ -41,7 +41,7 @@ export const HOTEL_DATA = {
       price: "₹3,499",
       description: "Spacious luxury with premium bedding, city views, and upgraded amenities for a relaxing getaway.",
       occupancy: "2 Adults, 2 Children",
-      image: "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?q=80&w=2070&auto=format&fit=crop",
+      image: "https://i.imgur.com/nqHrpHR.jpeg",
       facilities: ["Free WiFi", "Air Conditioning", "King Bed", "Mini Fridge", "Room Service"]
     },
     {
@@ -50,7 +50,7 @@ export const HOTEL_DATA = {
       price: "₹5,999",
       description: "The ultimate family experience featuring separate living areas, dual bathrooms, and panoramic views.",
       occupancy: "4 Adults, 2 Children",
-      image: "https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=1974&auto=format&fit=crop",
+      image: "https://i.imgur.com/PqnxqDC.jpeg",
       facilities: ["Free WiFi", "2 Bedrooms", "Lounge Area", "Bathtub", "Premium Service"]
     }
   ],
@@ -75,41 +75,72 @@ export const HOTEL_DATA = {
     {
       name: "Ananya Sharma",
       rating: 5,
-      text: "Amazing stay and very clean rooms. The location is perfect for exploring Port Blair.",
+      text: "The essence of true hospitality! From the pristine cleanliness of our room to the unmatched comfort of the bed, our stay was memorable. Truly a hidden gem in Port Blair.",
       avatar: "https://i.pravatar.cc/150?u=AnanyaSharma"
     },
     {
       name: "Rahul Verma",
       rating: 5,
-      text: "Staff behavior was excellent and very welcoming. Will definitely visit again!",
+      text: "Exceptional service and spotlessly clean! The staff went out of their way to ensure our holiday was completely stress-free. Every comfort was thoughtfully provided.",
       avatar: "https://i.pravatar.cc/150?u=RahulVerma"
     },
     {
-      name: "Kavita Desai",
-      rating: 4,
-      text: "Best hotel experience with beautiful surroundings. The breakfast was outstanding.",
+      name: "Priyanka Desai",
+      rating: 5,
+      text: "A magical experience! The attention to detail in room cleanliness and guest comfort was phenomenal. Our memories here will last a lifetime.",
       avatar: "https://i.pravatar.cc/150?u=KavitaDesai"
     },
     {
       name: "Amit Patel",
       rating: 5,
-      text: "Fast WiFi and excellent room service. Perfect for remote working while on vacation.",
+      text: "Impeccable hospitality. The ambiance, the comfortable interiors, and the welcoming staff made us feel entirely at home. Best stay ever!",
       avatar: "https://i.pravatar.cc/150?u=AmitPatel"
     },
     {
       name: "Neha Singh",
       rating: 5,
-      text: "Reception team was very helpful and professional. Arranged our local tours seamlessly.",
+      text: "Unforgettable hospitality! We felt pampered from check-in to check-out. The hygiene standards and cozy rooms made it a perfect escape.",
       avatar: "https://i.pravatar.cc/150?u=NehaSingh"
     }
   ],
+  experiences: [
+    {
+      title: "Cellular Jail",
+      description: "Step back in time at this historic national memorial, standing silently as a testament to India's freedom struggle.",
+      image: "https://i.imgur.com/y9vgyE6.jpeg"
+    },
+    {
+      title: "Corbyn’s Cove Beach",
+      description: "Relax on unspoiled sands shaded by lush palm trees. A perfect spot for a long, romantic evening walk.",
+      image: "https://i.imgur.com/cxo0B2y.jpeg"
+    },
+    {
+      title: "Island Hopping",
+      description: "Discover a paradise of secluded islands and vibrant coral reefs, charting a new adventure every single day.",
+      image: "https://images.unsplash.com/photo-1596895111956-bf1cf0599ce5?q=80&w=2000&auto=format&fit=crop"
+    },
+    {
+      title: "Scuba Diving",
+      description: "Plunge into the deep blue archipelago to explore exotic marine life and mesmerizing underwater topographies.",
+      image: "https://images.unsplash.com/photo-1544550581-5f7ceaf7f992?q=80&w=2000&auto=format&fit=crop"
+    },
+    {
+      title: "Water Sports",
+      description: "Feel the rush of adrenaline with thrilling a jet-ski ride and parasailing over sparkling turquoise waves.",
+      image: "https://images.unsplash.com/photo-1506929562872-bb421503ef21?q=80&w=2000&auto=format&fit=crop"
+    },
+    {
+      title: "Romantic Beach Evenings",
+      description: "Savor a private, candle-lit dinner alongside golden sunsets, wrapped in a cool gentle ocean breeze.",
+      image: "https://i.imgur.com/eF2h4OG.jpeg"
+    }
+  ],
   gallery: [
-    { src: "https://images.unsplash.com/photo-1542314831-c6a4d1409b1c?q=80&w=2000&auto=format&fit=crop", category: "Lobby" },
-    { src: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=2000&auto=format&fit=crop", category: "Rooms" },
-    { src: "https://images.unsplash.com/photo-1589309736402-263aecd40b2a?q=80&w=2000&auto=format&fit=crop", category: "Radhanagar Beach" },
-    { src: "https://images.unsplash.com/photo-1544550581-5f7ceaf7f992?q=80&w=2000&auto=format&fit=crop", category: "Boat Safari" },
-    { src: "https://images.unsplash.com/photo-1596895111956-bf1cf0599ce5?q=80&w=2000&auto=format&fit=crop", category: "Island Views" },
-    { src: "https://images.unsplash.com/photo-1506929562872-bb421503ef21?q=80&w=2000&auto=format&fit=crop", category: "Tropical Sunset" },
+    { src: "https://i.imgur.com/JzAEqgL.jpeg", category: "Lobby" },
+    { src: "https://i.imgur.com/au9GzOl.jpeg", category: "Rooms" },
+    { src: "https://i.imgur.com/nqHrpHR.jpeg", category: "View" },
+    { src: "https://i.imgur.com/PqnxqDC.jpeg", category: "Exterior" },
+    { src: "https://i.imgur.com/OqHMhm9.jpeg", category: "Hotel" },
   ]
 };
 

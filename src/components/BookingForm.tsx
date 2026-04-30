@@ -32,7 +32,7 @@ export function BookingForm() {
   };
 
   return (
-    <section id="booking" className="py-24 bg-transparent backdrop-blur-sm">
+    <section id="booking" className="py-16 md:py-24 lg:py-32 bg-transparent backdrop-blur-sm">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div 
           initial={{ opacity: 0, y: 30 }}

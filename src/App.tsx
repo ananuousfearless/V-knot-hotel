@@ -5,6 +5,7 @@ import { Hero } from './components/Hero';
 import { About } from './components/About';
 import { Rooms } from './components/Rooms';
 import { Facilities } from './components/Facilities';
+import { Experiences } from './components/Experiences';
 import { Reviews } from './components/Reviews';
 import { Gallery } from './components/Gallery';
 import { BookingForm } from './components/BookingForm';
@@ -61,6 +62,7 @@ export default function App() {
         <AnimatedSection><Rooms /></AnimatedSection>
         <AnimatedSection><BookingForm /></AnimatedSection>
         <AnimatedSection><Facilities /></AnimatedSection>
+        <AnimatedSection><Experiences /></AnimatedSection>
         <AnimatedSection><Gallery /></AnimatedSection>
         <AnimatedSection><Reviews /></AnimatedSection>
         <AnimatedSection><Location /></AnimatedSection>

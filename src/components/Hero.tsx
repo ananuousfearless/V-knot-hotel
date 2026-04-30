@@ -17,7 +17,7 @@ export function Hero() {
         className="absolute inset-0 z-0 bg-zinc-900"
       >
         <img 
-          src="https://images.unsplash.com/photo-1514282401047-d79b71a640f5?q=80&w=2000&auto=format&fit=crop" 
+          src="https://i.imgur.com/JzAEqgL.jpeg" 
           alt="Luxury Resort" 
           className="absolute inset-0 w-full h-full object-cover opacity-60 mix-blend-overlay"
         />

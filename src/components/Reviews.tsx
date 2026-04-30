@@ -26,7 +26,7 @@ export function Reviews() {
   }, [emblaApi, onSelect]);
 
   return (
-    <section className="py-24 bg-black/40 overflow-hidden relative border-t border-b border-white/5">
+    <section className="py-16 md:py-24 lg:py-32 bg-black/40 overflow-hidden relative border-t border-b border-white/5">
       {/* Decorative quotes bg */}
       <div className="absolute top-10 left-10 text-white/5 pointer-events-none">
         <Quote size={200} strokeWidth={1} />

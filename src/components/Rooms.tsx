@@ -26,7 +26,7 @@ export function Rooms() {
   }, [emblaApi, onSelect]);
 
   return (
-    <section id="rooms" className="py-24 bg-black/20 overflow-hidden relative">
+    <section id="rooms" className="py-16 md:py-24 lg:py-32 bg-black/20 overflow-hidden relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="flex flex-col md:flex-row justify-between items-center md:items-end mb-16 gap-6 text-center md:text-left">
           <div className="max-w-2xl text-center md:text-left flex flex-col items-center md:items-start mx-auto md:mx-0">
@@ -85,7 +85,7 @@ export function Rooms() {
                 className="bg-black/60 backdrop-blur-lg rounded-none overflow-hidden border border-white/5 group hover:border-gold-500/30 hover:scale-[1.02] hover:-translate-y-1 hover:shadow-[0_20px_40px_-15px_rgba(212,175,55,0.15)] transition-all duration-500 flex flex-col h-full"
               >
                 {/* Image */}
-                <div className="relative h-72 overflow-hidden">
+                <div className="relative aspect-video sm:aspect-[4/3] overflow-hidden">
                   <div className="absolute inset-0 bg-black/40 z-10 group-hover:bg-black/10 transition-colors duration-700"></div>
                   <img 
                     src={room.image} 

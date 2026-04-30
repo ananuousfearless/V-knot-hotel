@@ -3,7 +3,7 @@ import { HOTEL_DATA } from '../lib/data';
 
 export function Facilities() {
   return (
-    <section id="facilities" className="py-24 bg-transparent backdrop-blur-sm">
+    <section id="facilities" className="py-16 md:py-24 lg:py-32 bg-transparent backdrop-blur-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <motion.h2 

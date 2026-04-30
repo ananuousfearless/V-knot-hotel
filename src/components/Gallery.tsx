@@ -9,7 +9,7 @@ export function Gallery() {
   const categories = Array.from(new Set(HOTEL_DATA.gallery.map(img => img.category)));
 
   return (
-    <section id="gallery" className="py-24 bg-black/20">
+    <section id="gallery" className="py-16 md:py-24 lg:py-32 bg-black/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <motion.h2 
@@ -31,7 +31,7 @@ export function Gallery() {
           </motion.h3>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="columns-1 md:columns-2 lg:columns-3 gap-4 mx-auto w-full">
           {HOTEL_DATA.gallery.map((img, index) => (
             <motion.div
               key={index}
@@ -39,13 +39,13 @@ export function Gallery() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="relative group aspect-[4/3] rounded-none overflow-hidden cursor-pointer bg-black/40"
+              className="relative group rounded-2xl overflow-hidden cursor-pointer bg-black/40 mb-4 break-inside-avoid shadow-2xl"
               onClick={() => setSelectedImage(img.src)}
             >
               <img 
                 src={img.src} 
                 alt={img.category} 
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" 
+                className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-1000" 
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col items-center justify-center text-white">
